@@ -1,0 +1,58 @@
+body {               
+    text-align: left;
+    color:rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 24px;
+
+}
+
+
+h1 {
+    text-align: center;
+}
+
+button {
+
+    background: rgb(160, 160, 255);
+    outline-style: solid;
+    outline: 2px solid black;
+    border: 0px;
+    outline-offset: -6px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: false;
+
+  }
+
+button:hover {
+    outline-offset: 0px;
+    margin-top: 10px;
+}
+
+#nav button {
+     margin: 5px;
+}
+
+#nav {
+    text-align: left;
+}
+
+#content {
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 20%;
+    line-height: 200%;
+}
+
+[class~="socio.culture"] {
+    background: rgb(65, 204, 134);
+
+}
+
+[class~="socio.social"] {
+    background: rgb(232, 138, 255);
+
+}
