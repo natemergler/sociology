@@ -1,0 +1,2 @@
+# sociology
+organized sociology notes
