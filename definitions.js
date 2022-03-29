@@ -58,8 +58,14 @@ const def = {
     theSelf : "<p><strong>The Self</strong></p><ul><p>The self has a dual nature</p><p>The &ldquo;<em>I</em>&rdquo; is the self as subject, active and spontaneous</p><ul><li>Unsocialized opinion of ourselves</li><li>Unpredictable and spontaneous</li><li>The I will take a piece of candy from a baby</li></ul><p>The &ldquo;<em>Me</em>&rdquo; is the self as objective, the way we imagine others to see us</p><ul><li>Created through socialization</li><li>The ME will think about the consequences and how others will view them; how will others see ME?</li><li>Am I acting out my role in my situation? Ex.- male, classroom</li></ul></ul>",
     lookingGlass : "<p><strong>Looking-Glass Self</strong></p><ul><p>Sense of self develops from how we are seen by others. We understand who we are by looking in the &lsquo;mirror&rsquo; of how others behave towards us.</p><p>Automatic process that occurs very quickly</p><ul><li>based on our imagined perceptions&hellip;may be distorted</li></ul><p>Studies have found that women who reported greater exposure to television programming during adolescence were more likely to experience high levels of body dysmorphia than females that did not report such levels of exposure.</p></ul>",
     //agents of socialization
-    primaryAgents : "<h2><strong>Primary Agents of Socialization: Family and Peer Groups</strong></h2><ol> <li><strong><u>Family</u></strong> :The family is crucial. Varies markedly by social class.</li><ul><li>Learn, make mistakes in safe environment</li><li>Early education on gender roles</li><li>Not all intentional, children learn from the type of environment created by the adults.</li><ul><li>see the world as safe vs. dangerous, see themselves as loved or tolerated, smart or stupid, gender roles vs. not</li></ul></ul><p>Significant Others : Those that are most important to sue and whose opinion we value.</p> <li><strong><u>Peer Groups</u></strong> :composed of members with similar interests, social position and age allow children to discuss topics of little interest to adults or considered taboo.</li><ul><li>Peer roles change with age&hellip;but remain valuable</li><li>Peer groups are important</li><ul><li>Tend to view your peer group in positive terms and put down other groups</li><li>Influenced by peer groups you would like to join</li></ul><li>Children may belong to several peer groups</li><li>Peer groups promote independence from family due to differing norms</li><ul><li>Age-appropriate behavior</li><li><strong>Social Sanctions</strong> :punishments for acting wrong, through exclusion etc.</li></ul><li>Allows practice with decision making</li><li>Suburban communities, two income families and single parent families has resulted in children spending more time with peers as they get older</li><li>Peer Pressure : One of the strongest forces that cause us to conform</li></ul></ol>",
+    primaryAgents : "<h2><strong>Primary Agents of Socialization: Family and Peer Groups</strong></h2><ol> <li><strong><u>Family</u></strong> :The family is crucial. Varies markedly by social class.<ul><li>Learn, make mistakes in safe environment</li><li>Early education on gender roles</li><li>Not all intentional, children learn from the type of environment created by the adults.</li><ul><li>see the world as safe vs. dangerous, see themselves as loved or tolerated, smart or stupid, gender roles vs. not</li></ul></ul></li><p>Significant Others : Those that are most important to sue and whose opinion we value.</p> <li><strong><u>Peer Groups</u></strong> :composed of members with similar interests, social position and age allow children to discuss topics of little interest to adults or considered taboo.</li><ul><li>Peer roles change with age&hellip;but remain valuable</li><li>Peer groups are important</li><ul><li>Tend to view your peer group in positive terms and put down other groups</li><li>Influenced by peer groups you would like to join</li></ul><li>Children may belong to several peer groups</li><li>Peer groups promote independence from family due to differing norms</li><ul><li>Age-appropriate behavior</li><li><strong>Social Sanctions</strong> :punishments for acting wrong, through exclusion etc.</li></ul><li>Allows practice with decision making</li><li>Suburban communities, two income families and single parent families has resulted in children spending more time with peers as they get older</li><li>Peer Pressure : One of the strongest forces that cause us to conform</li></ul></ol>",
     secondaryAgents : "<h2><strong>Secondary Agents of Socialization: Education, Religion, Mass Media</strong></h2><ol><li><strong><u>Education &ldquo;The School&rdquo;</u></strong></li><ul><li>Children are introduced to people with different backgrounds from their own</li><ul><li>Learn factors such as race and social class position</li><li>Learn Skills</li></ul><li>Schooling introduces students to being evaluated</li><ul><li>Children&rsquo;s relationships are based off of performance rather than affection</li></ul><li>&ldquo;Hidden Curriculum&rdquo; - Passes on important cultural values, mostly implicitly (conformity, discipline, order, cooperation, etc.)</li><ul><li>Ex. Sports= winners and losers</li><li>Opportunities :Demonstrate talents</li><li>Traumas : lessons learned</li><ul><li>Authority figures not in family</li></ul></ul></ul><li><strong><u>Religion</u></strong></li><ul><li>Learn values, morals, and beliefs of their particular religion</li><ul><li>Reflected in laws and norms</li></ul><li>Extends to proper dress, views on sexuality, proper gender roles, work, and child-rearing practices</li></ul><li><strong><u>Mass Media</u></strong> : impersonal communications directed at a vast audience</li><ul><li>Used to shape socialization</li><li>Television and the internet have become especially important</li><li>Imitation : Copying behaviors seen on TV</li><li>Desensitization : Consistent exposure to something such as sex, violence, or poverty lowers our emotional reaction</li><li>Conversely become fearful of overestimate of extent</li><li>Learning : intro to ideas</li><li>Consumerism : promotion of active</li></ul></ol>",
+    //socialorder
+    deviance : "<p><strong>Deviance</strong> : recognized violation of cultural norms; a behavior that departs from societal or group norms</p><ul><li>Negative Deviance involves behavior that fails to meet accepted norms</li><li>Positive deviance involves over-conformity to norms</li><li>No thought or action is inherently deviant only in relation to particular norms</li><li>People become deviant as other define them that way</li><li>Whether a behavior is criminal or just strong depends on how others perceive, define and respond to the behavior</li><li>Deviance is a social construct to control people and create order</li></ul>",
+    socialControl : "<p><strong>Social Order</strong> : attempts by society to regulate people's thoughts and behavior; ways to encourage conformity to society's norms.</p>",
+    socialOrder : "<p><strong>Social Order</strong> : System of linked social structures, institutions, relations, customs, values and practices, which conserve, maintain and enforces contain patterns of relating and behaving.</p>",
+    externalSocialControl : "<p><strong>External Social Control</strong> : based on social sanctions (rewards or punishments, designed to encourage expected / normal behavior </p>"
+
 
 
 };
@@ -110,13 +116,13 @@ const socio = {
     },
 
     control : {
-        link: "socio.control",
-      title: "Social Control",
+      link: "socio.control",
+      title: "Deviance and Social Order",
     
       unit: "intro",
     
-      content: ""
-    },
+      content: def.deviance + def.socialControl + def.socialOrder + def.externalSocialControl + "<p>Both norms and the way people define rule-breaking involve social power. Norms and now we apply them reflect social inequality."
+    }
     
   
   }; 
@@ -178,11 +184,11 @@ const socio = {
   //create the nav bar
   for (let i in allApproach) {
     title = allApproach[i];
+
     for (let x in title){
       article = title[x]
       document.getElementById("nav").innerHTML += '<button class="'+article.link+'" onClick="pagecontent('+article.link+')">'+article.title+'</button>';
     }
-    /*document.getElementById("nav").innerHTML += '<button id="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';*/
   }
   
   //sets default main page
