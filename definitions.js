@@ -64,8 +64,12 @@ const def = {
     deviance : "<p><strong>Deviance</strong> : recognized violation of cultural norms; a behavior that departs from societal or group norms</p><ul><li>Negative Deviance involves behavior that fails to meet accepted norms</li><li>Positive deviance involves over-conformity to norms</li><li>No thought or action is inherently deviant only in relation to particular norms</li><li>People become deviant as other define them that way</li><li>Whether a behavior is criminal or just strong depends on how others perceive, define and respond to the behavior</li><li>Deviance is a social construct to control people and create order</li></ul>",
     socialControl : "<p><strong>Social Order</strong> : attempts by society to regulate people's thoughts and behavior; ways to encourage conformity to society's norms.</p>",
     socialOrder : "<p><strong>Social Order</strong> : System of linked social structures, institutions, relations, customs, values and practices, which conserve, maintain and enforces contain patterns of relating and behaving.</p>",
-    externalSocialControl : "<p><strong>External Social Control</strong> : based on social sanctions (rewards or punishments, designed to encourage expected / normal behavior </p>"
-
+    externalSocialControl : "<p><strong>External Social Control</strong> : based on social sanctions (rewards or punishments, designed to encourage expected / normal behavior </p>",
+    //functionalism
+    functionalism : "<p><strong>Functionalism</strong> : Society is a complex system whose parts work together to promote solidarity and stability</p><ul><li>Most aspects of society exist to promote survival and welfare</li></ul>",
+    manifestFunctions : "<p><strong>Manifest Function</strong> : recognized and intended consequences of any social pattern<p><ul><li>Ex. Go to school to get an education</li><li>Ex. Marriage</li></ul>",
+    latentFunctions : "<p><strong>Latent Function</strong> : the unrecognized and unintended consequences of any social pattern<p><ul><li>Ex. Also learn a bunch of other lessons like how to work with others, respect with authority, obedience</li><li>Ex. Often leads to an increase of money, creation of families and the transmission of traditions and culture</li></ul>",
+    socialDysfunction : "<p><strong>Social Dysfunction</strong> : any social pattern that may disrupt the operation of society<p><ul><li>Put a bunch of teenagers in a school and things like bullying develop, can have an impact on their mental health</li><li>Ex. Divorce</li></ul>",
 
 
 };
@@ -136,6 +140,15 @@ const socio = {
       unit: "intro", 
       
       content: def.structuralism + def.criticalTheory
+    },
+
+    func : {
+      link: "struc.func",
+      title : "Functionalism",
+
+      unit : "intro",
+
+      content : def.functionalism + "<h2>Functions</h2><ol><li>" + def.manifestFunctions + "</li><li>" + def.latentFunctions + "</li><li>" + def.socialDysfunction + "</li></ol>"
     }
   
   }
