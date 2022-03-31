@@ -194,14 +194,25 @@ const socio = {
   
   }
   
-  //create the nav bar
-  for (let i in allApproach) {
-    title = allApproach[i];
+  //create the nav bars
 
-    for (let x in title){
-      article = title[x]
-      document.getElementById("nav").innerHTML += '<button class="'+article.link+'" onClick="pagecontent('+article.link+')">'+article.title+'</button>';
-    }
+  for (let i in socio) {
+    title = socio[i];
+
+    document.getElementById("nav.socio").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
+
+  }
+  for (let i in struc) {
+    title = struc[i];
+
+    document.getElementById("nav.struc").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
+
+  }
+  for (let i in interact) {
+    title = interact[i];
+
+    document.getElementById("nav.interact").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
+
   }
   
   //sets default main page

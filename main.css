@@ -13,17 +13,21 @@ h1 {
 
 button {
 
-    background: rgb(160, 160, 255);
-    outline-style: solid;
+    /*background: rgb(160, 160, 255);
+    
     outline: 2px solid black;
-    border: 0px;
-    outline-offset: -6px;
-    padding: 10px;
+    
+    outline-offset: -6px;*/
+    padding: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: rgb(0, 0, 0);
     text-decoration: underline;
     cursor: pointer;
     font-size: 24px;
     box-shadow: false;
+    border: 0px;
+    background: rgb(255, 255, 255);
 
   }
 
@@ -39,10 +43,12 @@ button:hover {
 
 #nav button {
      margin: 5px;
+     font-size: 22px;
 }
 
 #nav {
     text-align: left;
+    line-height: 20%;
 }
 
 #content {
@@ -51,7 +57,7 @@ button:hover {
     padding-right: 20%;
     line-height: 200%;
 }
-
+/*
 [class~="socio.culture"] {
     background: rgb(65, 204, 134);
 
@@ -60,4 +66,4 @@ button:hover {
 [class~="socio.social"] {
     background: rgb(232, 138, 255);
 
-}
+}*/
