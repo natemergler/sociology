@@ -199,19 +199,19 @@ const socio = {
   for (let i in socio) {
     title = socio[i];
 
-    document.getElementById("nav.socio").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
+    document.getElementById("nav_socio").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
 
   }
   for (let i in struc) {
     title = struc[i];
 
-    document.getElementById("nav.struc").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
+    document.getElementById("nav_struc").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
 
   }
   for (let i in interact) {
     title = interact[i];
 
-    document.getElementById("nav.interact").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
+    document.getElementById("nav_interact").innerHTML += '<button class="'+title.link+'" onClick="pagecontent('+title.link+')">'+title.title+'</button>';
 
   }
   

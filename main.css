@@ -41,14 +41,76 @@ button:hover {
     margin-top: 10px;
 }
 
-#nav button {
-     margin: 5px;
-     font-size: 22px;
-}
-
-#nav {
+.nav {
     text-align: left;
     line-height: 20%;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+
+.nav button {
+    float: left;
+    margin: 5px;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    padding-top: 20px;
+    
+}
+
+.dropdown .dropbtn {
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 25px;
+    padding: auto;
+}
+
+.dropdown-content button {
+    float: none;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
+.dropdown-content button:hover {
+    outline: solid;
+    text-decoration: underline;
+}
+
+#nav_socio button:hover {
+    background-color:rgb(224, 121, 121);
+
+}
+
+#nav_struc button:hover {
+    background-color:rgb(121, 235, 178);
+
+}
+
+#nav_interact button:hover {
+    background-color:rgb(120, 198, 250);
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 #content {
@@ -57,6 +119,9 @@ button:hover {
     padding-right: 20%;
     line-height: 200%;
 }
+
+
+
 /*
 [class~="socio.culture"] {
     background: rgb(65, 204, 134);
