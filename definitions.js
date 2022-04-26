@@ -174,6 +174,8 @@ const socio = {
   
   for (let i in allApproach) {
     approach = allApproach[i]
+
+
     // READD THIS LATER
     /*for (let individualArticle in approach) {
   
@@ -232,4 +234,20 @@ const socio = {
     document.getElementById("content").innerHTML = selection.content;
   }
   
+allList = [];
+//above and below make a list of all articles
+for (let i in allApproach) {
+  approach = allApproach[i]
+  for (let individualArticle in approach) { 
+    text = approach[individualArticle]
+    allList.push(text.link)
+
+  }
+}
+
+function next(){
+  y = allList[1]
+  document.getElementById("title").innerHTML = y.title;
+  document.getElementById("content").innerHTML = y.content;
   
+}

@@ -36,9 +36,16 @@ footer {
     text-align: center;
 }
 
-button:hover {
-    outline-offset: 0px;
-    margin-top: 10px;
+
+
+.navigator {
+    margin-left: 50%;
+}
+
+.navigator button {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
 }
 
 .nav {
@@ -79,6 +86,10 @@ button:hover {
     padding: auto;
 }
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .dropdown-content button {
     float: none;
     padding: 20px 20px;
@@ -87,6 +98,10 @@ button:hover {
     text-align: left;
     transition: background-color 0.5s ease-in-out;
 
+}
+
+.dropbtn:active .dropdown-content {
+    display: none;
 }
 
 .dropdown-content button:hover {
@@ -109,9 +124,7 @@ button:hover {
 
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
 
 #content {
     display: inline-block;
